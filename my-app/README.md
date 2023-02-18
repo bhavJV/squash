@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Setting Up
+
+This project uses the Google Maps API, you will need to install the required dependencies by running
+
+### npm install google-map-react
+
 ## Available Scripts
 
 In the project directory, you can run:
