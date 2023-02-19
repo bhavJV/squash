@@ -6,6 +6,7 @@
 }
 
 .homepage{
+  overflow: hidden;
   background-image: url('earth.jpg');
   background-size:cover;
   background-position: center center;
