@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .homepage{
+    background-color: #364C56;
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+    width: 100vw;
+  }
+  
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      width: 50%;
+    }
+  
+  .text{
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: none;
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    text-decoration: underline;
+    
+    text-align: center;
+    margin: 20px;
+    align-self: center;
+    font-family: 'Abhaya Libre', serif;
+  }
