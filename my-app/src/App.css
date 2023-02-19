@@ -1,86 +1,41 @@
-
 *{
-  background-image: url("earth.jpg");
-  background-size: cover;
-}
-.App {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homepage{
+  background-image: url('earth.jpg');
+  background-size:cover;
+  background-position: center center;
+  height:100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: aliceblue;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-a{
-  text-decoration: none;
-}
-
-li{
-  list-style-type: none;
-}
-
-.login{
-  display: flex;
-  justify-content: space-around;
-  min-height: 10vh;
-  align-items: right;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-nav {
-display: flex;
-justify-content: space-around;
-min-height: 10vh;
-align-items: center;
-font-family: Arial, Helvetica, sans-serif;
-color: aliceblue;
-}
-
-nav .logo{
-  font-size: 35px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-nav .nav-links{
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-nav .nav-links a {
-  font-size: 18px;
-  font-weight: 700;
+.logo-container{
+  margin: 25vh; 
+  background: #3D3B30; /* Fallback */
+  background: rgba(61, 59, 48, 0.3);
+  display: inline-block;
+  padding: 10px; 
+  border-radius: 20px; /* add rounded corners */
   color: aliceblue;
+
+.slogan{
+  font-size: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  text-align: center;
+  margin: auto;
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slogan-text{
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  align-self: center;
 }

@@ -1,17 +1,24 @@
 import React from 'react';
 import Map from './Map';
-import NavBar from './Navbar';
+import NavBar from './Navbar/Navbar';
 import "./App.css"
 
 function App() {
   return (
     
-    <div className="App">
+    <div className="homepage">
       <div>
       <NavBar />
       </div>
       
-      <h1>Squash</h1>
+      <div className='logo-container'>
+        <div className = "slogan">
+          Recycle
+        </div>
+        <div className = "slogan-text">
+          We Have Only One Earth
+        </div>
+      </div>
     </div>
   );
 }
