@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .homepage{
+    background-color: #364C56;
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+    width: 100vw;
+  }
+  
+  .logo-container{
+    margin: 25vh; 
+    background: #3D3B30; /* Fallback */
+    background: rgba(61, 59, 48, 0.3);
+    display: inline-block;
+    padding: 10px; 
+    border-radius: 20px; /* add rounded corners */
+    color: aliceblue;
+    max-height: 400px;
+    min-width: 1000px;
+    align-self: center;
+  }
+  
+  .thing1{
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: none;
+    
+    text-align: center;
+    margin: 20px;
+    align-self: center;
+    font-family: 'Abhaya Libre', serif;
+    
+  }
+  
+  .thing2{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF9800;
+    font-family: 'Abhaya Libre', serif;
+    
+    text-align: center;
+    margin: 15px;
+    align-self: center;
+  }
+  
+  .thing3{
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Abhaya Libre', serif;
+  }
+  
+  
