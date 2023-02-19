@@ -9,10 +9,11 @@ function NavBar() {
                 <div className="logo">Squash</div>
                 <ul className="nav-links">
                     <li>
-                    <NavLink exact to="/home">Home</NavLink>
+                    <NavLink exact to="/">Home</NavLink>
                     </li>
                     <li>
-                    <NavLink to="/about">About</NavLink>                    </li>
+                    <NavLink to="/about">About</NavLink>                    
+                    </li>
                     <li>
                     <NavLink to="/centers">Centers</NavLink>
                     </li>

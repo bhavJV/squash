@@ -1,15 +1,18 @@
 import React from 'react';
 import NavBar from './Navbar/Navbar';
-import Router from './Routes';
+import RouterConfig from './RouterConfig';
 import "./App.css";
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="homepage">
       
         <div>
-          <NavBar />
-          <Router />
+          <BrowserRouter>
+            <NavBar />
+            <RouterConfig />
+          </BrowserRouter>
         </div>
 
         <div className='logo-container'>

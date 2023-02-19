@@ -17,7 +17,7 @@ class Map extends Component {
   render() {
     return (
       <><div>
-        <NavBar />
+        {/* <NavBar /> this will cause an extra navbar*/} 
       </div>
       <div style={{ height: '50vh', width: '50%' }}>
           <GoogleMapReact

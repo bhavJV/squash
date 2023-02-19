@@ -1,14 +1,13 @@
 import React from 'react';
-import Map from './Map';
-import NavBar from './Navbar/Navbar';
-import "./App.css"
+import NavBar from '../Navbar/Navbar';
+import "./AboutUs.css"
 
 function App() {
   return (
     
     <div className="homepage">
       <div>
-      <NavBar />
+      {/* <NavBar /> //this will cause an extra navbar*/} 
       </div>
       
       <div className='logo-container'>
