@@ -1,11 +1,5 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  .homepage{
+
+  .aboutus{
     background-color: #364C56;
     background-size:cover;
     background-position: center center;
@@ -13,7 +7,7 @@
     width: 100vw;
   }
   
-  .logo-container{
+  .aboutus-container{
     margin: 25vh; 
     background: #3D3B30; /* Fallback */
     background: rgba(61, 59, 48, 0.3);

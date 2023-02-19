@@ -1,16 +1,11 @@
 import React from 'react';
-import NavBar from '../Navbar/Navbar';
 import "./AboutUs.css"
 
-function App() {
+function aboutus() {
   return (
     
-    <div className="homepage">
-      <div>
-      {/* <NavBar /> //this will cause an extra navbar*/} 
-      </div>
-      
-      <div className='logo-container'>
+    <div className="aboutus">
+      <div className='aboutus-container'>
         <div className = "thing1">
          Find, sell, earn, redeem, donate, and learn all in one place!
         </div>
@@ -25,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default aboutus;
