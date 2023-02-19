@@ -3,14 +3,13 @@
   padding:0;
   box-sizing: border-box;
   text-align: center;
-  background-color: #3D3B30;
 }
 
 .homepage{
   background-image: url('earth.jpg');
   background-size:cover;
   background-position: center center;
-  height:100%;
+  height:100vh;
   width: 100%;
 }
 

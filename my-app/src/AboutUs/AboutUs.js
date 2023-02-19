@@ -1,15 +1,10 @@
 import React from 'react';
-import NavBar from '../Navbar/Navbar';
 import "./AboutUs.css"
 
 function aboutus() {
   return (
     
     <div className="aboutus">
-      <div>
-      {/* <NavBar /> //this will cause an extra navbar*/} 
-      </div>
-      
       <div className='aboutus-container'>
         <div className = "thing1">
          Find, sell, earn, redeem, donate, and learn all in one place!
