@@ -1,20 +1,15 @@
 import React from 'react';
-import NavBar from '../Navbar/Navbar';
 import "./DiscordPage.css"
 
-function App() {
+function Discord() {
   return (
-    
-    <div className="homepage">
-      <div>
-      <NavBar />
-      </div>
+    <div className="discord-page">
       <img src={require('../discordThing.png')} />
-      <div className = "text">
-        Add our bot to your server!
+      <div className = "text-discord">
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1076530772439212042&permissions=8&scope=bot">Add our bot to your server!</a>
       </div>
     </div>
   );
 }
 
-export default App;
+export default Discord;

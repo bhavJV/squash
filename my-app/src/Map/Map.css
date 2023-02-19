@@ -5,8 +5,10 @@
 }
 
 .map{
+    text-align: center;
     margin-left: 10vh;
+    margin-right:10vh;
     margin-top: 6vh;
     height: 80vh;
-    width: 50vw;
+    width: 90vw;
 }
