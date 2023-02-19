@@ -4,14 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ##Setting Up
 
-This project uses the Google Maps API, you will need to install the required dependencies by running
+This project uses the Google Maps API and a few other dependencies, you will need to install the required dependencies by running
 
-### npm install google-map-react
+### `npm install google-map-react`
+### `npm install react-router-dom`
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
