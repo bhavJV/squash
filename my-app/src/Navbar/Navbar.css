@@ -1,0 +1,60 @@
+
+ul{
+    list-style-type: none;
+
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gloock',Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+  }
+  
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav .logo{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  nav .nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:25%;
+  }
+  
+  nav .nav-links a{
+  font-size: 20px;
+  font-weight: normal;
+  }
+  
+  nav .nav-links a:hover{
+    border-bottom: 5px solid #36C9C6;
+    cursor: pointer;
+  }
+  
+  @media all and (min-width: 600px) {
+    /* We tell both sidebars to share a row */
+    .aside { flex: 1 auto; }
+  }
+  @media all and (min-width: 800px) {
+    /* We invert order of first sidebar and main
+     * And tell the main element to take twice as much width as the other two sidebars 
+     */
+    .logo-name { flex: 3 0px; }
+  
+  }
