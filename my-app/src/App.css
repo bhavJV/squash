@@ -1,3 +1,8 @@
+
+*{
+  background-image: url("earth.jpg");
+  background-size: cover;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: aliceblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +31,49 @@
 
 .App-link {
   color: #61dafb;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.login{
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+display: flex;
+justify-content: space-around;
+min-height: 10vh;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif
+color: aliceblue;
+}
+
+nav .logo{
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav .nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+nav .nav-links a {
+  font-size: 18px;
+  font-weight: 700;
+  color: aliceblue;
 }
 
 @keyframes App-logo-spin {
